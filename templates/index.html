@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Zoom Effect on Images</title>
+  <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 align="center">Robot Zoom Effect Web Page</h1>
+
+  
+  <div class="container"> 
+  <div class="Image">
+    <a href="{{url_for('robot1')}}"><img src="{{url_for('static',filename='images/robot1.jpg')}}" class="cart" width="175" height="200" alt="robot1"></a>
+
+  </div>
+    <div class="Image">
+      <a href="{{url_for('robot2')}}"><img src="{{url_for('static',filename='images/robot2.jpg')}}" class="cart" width="175" height="200" alt="robot2"></a>
+
+    </div>
+      <div class="Image">
+        <a href="{{url_for('robot3')}}"><img src="{{url_for('static',filename='images/robot3.jpg')}}" class="cart" width="175" height="200" alt="robot3"></a>
+
+      </div>
+        <div class="Image">
+          <a href="{{url_for('robot4')}}"><img src="{{url_for('static',filename='images/robot4.jpg')}}" class="cart" width="175" height="200" alt="robot4"></a>
+
+        </div>
+
+  </div>
+</body>
+
+</html>
